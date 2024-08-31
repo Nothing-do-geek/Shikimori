@@ -1,0 +1,569 @@
+@media (min-width: 1024px) { /* Добавьте эту строку в начало кода */
+/* Ваш CSS тут */
+} /* Добавьте эту строку в конец кода. Это конец @media-запроса.  */
+/* Ваш CSS, который работает на любых экранах */
+
+@media (min-width: 1024px) {
+/* Ваш CSS, который работает только на больших экранах */
+}
+@media screen and (max-width: 1024px) {
+  body {
+    background: none !important;
+  }
+}
+/* Скрываем кнопку "Сообщить об ошибке" в профиле */
+.p-profiles-show .b-feedback {
+  display: none;
+}
+html[data-color-mode="light"] {
+  --link-color: #4F1717;
+  --headline-background-color: #ff4f00;
+  --headline-border-color: #d53e07;
+}
+.p-profiles-show .about .b-image {
+    border-radius: 25px;
+}
+
+/* поле ввода */
+.b-shiki_editor .body .editor textarea {
+  background-color: #E98725;
+  color: #FAD6B2;
+}
+
+/* поле спойлера */
+.b-spoiler_block > div {
+  background-color: #FFEDDB;
+}
+
+/* всплывающее окно */
+.tooltip-inner {
+  background-color: #E98725;
+  color: #FAD6B2;
+}
+
+/* Списки Аниме и Манги в профиле */
+/* Названия разделов: Список аниме и Список манги */
+.b-stats_bar .title {
+  color: #A96228; /* Для приватных списков */
+}
+.b-stats_bar a.title {
+  color: #A96228; /* Для открытых списков */
+}
+
+/* Цвет цифр в полосках */
+.b-stats_bar .bar .first,
+.b-stats_bar .bar .second,
+.b-stats_bar .bar .third {
+  color: #A96228;
+}
+
+/* AUTO=page_background_color */ .l-page { background-color: rgba(251, 238, 223, 0.8); } .b-ajax:before { background: rgba(255, 239, 209, 0.8); }
+/* AUTO=sticky_menu */ @media screen and (min-width: 1000px) { .l-top_menu-v2 { position: sticky; top: 0; } .l-top_menu-v2 .active .submenu { max-height: calc(100vh - var(--top-menu-height)); overflow-y: auto; font-family: "Bookman Old Style", "Bookman Old Style", monospace;} }
+/* AUTO=page_border */ .l-page { outline: 25px solid rgba(255, 253, 214, 0.1); margin-bottom: 20px; font-family: "Bookman Old Style", "Courier New", monospace;}
+/* AUTO=body_background */ body { background: url(https://i.ytimg.com/vi/DZe_VQgcl9g/maxresdefault.jpg) no-repeat fixed; background-size: 100% auto;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto}
+/* Фон осени */
+.activity .graph.vertical .line .bar {
+  box-sizing: content-box;
+  transform: translateY(1px);
+  transform-origin: center bottom;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 1.9s;
+  animation-name: activity;
+}
+/* Время фона */
+body[data-server_time *= "T20"],
+body[data-server_time *= "T21"],
+body[data-server_time *= "T22"],
+body[data-server_time *= "T23"],
+body[data-server_time *= "T00"],
+body[data-server_time *= "T01"],
+body[data-server_time *= "T02"],
+body[data-server_time *= "T03"],
+body[data-server_time *= "T04"],
+body[data-server_time *= "T05"],
+body[data-server_time *= "T06"],
+body[data-server_time *= "T07"]{
+  background-color: rgba(251, 238, 223, 0.8); .b-ajax:before  background: rgba(255, 239, 209, 0.8); 
+  @media screen and (min-width: 1030px)  .l-top_menu-v2  position: sticky; top: 0;  .l-top_menu-v2 .active .submenu  max-height: calc(100vh - var(--top-menu-height)); overflow-y: auto; 
+  .l-page  outline: 30px solid rgba(255, 255, 255, 0.3); margin-bottom: 20px; 
+  font-family: "Bookman Old Style", "Bookman Old Style", monospace;
+  background: url(https://i.pinimg.com/originals/5e/e2/ee/5ee2ee57feed8a17a7a5c1672f24cb2f.png) no-repeat fixed; background-size: 100% auto;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;)
+}
+/* Фон ночной осени */
+.activity .graph.vertical .line .bar:hover {
+  animation-name: none;
+  transform: none;
+}
+.activity .graph.vertical .line:nth-of-type(7n+2) .bar {
+  animation-delay: -.25s;
+}
+.activity .graph.vertical .line:nth-of-type(6n+4) .bar {
+  animation-delay: -.5s;
+}
+.activity .graph.vertical .line:nth-of-type(3n+3) .bar {
+  animation-delay: -.75s;
+}
+.activity .graph.vertical .line:nth-of-type(6n+6) .bar {
+  animation-delay: -1s;
+}
+.activity .graph.vertical .line:nth-of-type(6n+5) .bar {
+  animation-delay: -1.25s;
+}
+@keyframes activity {
+  0%, 100% {
+    transform: translateY(1px);
+  }
+  50% {
+    transform: translateY(7px);
+  }
+}
+.p-profiles-show .profile-head:before {
+  content: '';
+  display: block;
+  height: 520px; /**/ 
+  background: url("https://media.discordapp.net/attachments/661235129661784115/1279351669162901525/D0A0D0B5D0BCD0BED0BDD182.png?ex=66d42097&is=66d2cf17&hm=048826fb20a3860f25393ac2b22d657f1c9b7647adc9c8efb3cf5b8b8406e573&=&format=webp&quality=lossless&width=1048&height=590") no-repeat; /**/
+  background-size: cover; 
+  margin: -10px;
+  margin-bottom: 5px; /**/
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+}
+.p-profiles .profile-head .c-brief .avatar img {
+    animation: fly 7s ease-in-out infinite;
+    border-radius: 70% / 30%;
+}
+
+.bar.simple .bar.s3 { background: #ed9121;border-radius: 25px}
+.bar.simple .bar:hover.s3 { background:#cd7f32;border-radius: 25px}
+.bar.simple .bar.s2 { background: #cc7722;border-radius: 25px}
+.bar.simple .bar:hover.s2 { background: #cd853f;border-radius: 25px}
+.bar.simple .bar.s1 { background: #ffcc00;border-radius: 25px}
+.bar.simple .bar:hover.s1 { background: #ffbf00;border-radius: 25px}
+.bar.simple .bar.s0 { background: #ffa812;border-radius: 25px}
+.bar.simple .bar:hover.s0 { background: #ffa812;border-radius: 25px}
+@keyframes fly {
+    0% {
+        transform: translateY(-20);
+    }
+    30% {
+        transform: translateY(20px);
+    }
+}
+
+.l-top_menu-v2 .submenu > a:hover,
+.l-top_menu-v2 .menu-dropdown > button:not(.mobile):hover,
+.l-top_menu-v2 .menu-dropdown > button:not(.mobile) a:hover {
+  box-shadow: 0 0 20px rgba(235,214,163,6),
+              0 0 20px rgba(235,214,163,1) inset;
+  transition: 0.3s;
+}
+
+}
+.p-profiles-show .b-feedback:after {
+  content: ''; /* "так надо" */
+  position: fixed; /* именно это свойство и его значение fixed
+                      и делает, чтобы изображение "прокручивалось" */
+  width: 100px; /* ширина изображения */
+  height: 100px; /* высота изображения */
+  right:  0px;  /* отступ справа, 0px значит, что отступа от правой границы нет*/
+  bottom: 0px; /* отступ снизу, 0px значит, что отступа от нижней границы нет*/
+  background: url("https://i1.sndcdn.com/artworks-000168755379-11mpaj-t500x500.jpg") no-repeat;
+  border: 9px groove rgba(216,108,0.58);
+  background-size: cover; /* размер изображения будет подгоняться так,
+                             чтобы занять всё пространство, которое 
+                             задают width и height */
+  z-index: 10; /* изображение становится выше всех по z координате,
+                  тем самым всё остальное находится под ним*/
+  pointer-events: none; /* мышь перестаёт замечать изображение */
+}
+body:before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Изображения снега: */
+  background-image: url(https://i.pinimg.com/originals/f4/93/43/f49343aed2b69fc3d19009b4f768e9b5.png),
+                    url(https://clipart-library.com/images_k/autumn-leaves-transparent-background/autumn-leaves-transparent-background-6.png),
+                    url(https://static.tildacdn.com/tild3061-6335-4665-a238-633565623735/pngwingcom_2.png);
+  /* Размер изображений по порядку: */
+  /* (размер уменьшен в 2 раза: снежинки больше похожи на точки, чем на  детские рисунки */
+  /* (можно удалить) */
+  background-size: 400px, 250px, 100px;
+  /* Скорость анимации: */
+  /* (чем больше время, тем медленнее идет снег) */
+  animation: snow 30s linear infinite;
+}
+
+/* Анимация снега */
+@keyframes snow {
+  0% {
+    background-position: 0px 0px,
+                         0px 0px,
+                         0px 0px;
+  }
+  100% {
+    /* (Указан полный размер изображений по прядку, указанному в body:before) */
+    background-position: 600px 900px,
+                         400px 400px,
+                         300px 300px;
+  }
+}
+
+.fullwidth.color1 label {
+    background: rgb( 248 186 144 / 60%); /* Цвет фона спойлер-кнопки */
+    color: rgb(201 94 22); /* Цвет  названия спойлер-кнопки */
+}
+.fullwidth.color1 label::after {
+    color: rgb(201 94 22 / 60%); /* Цвет подсказки "Открыть" на спойлер-кнопке  */
+}
+.p-profiles .profile-head .c-brief .avatar img {
+    animation: fly 0s ease-in-out infinite;
+}
+
+@keyframes fly {
+    90% {
+        transform: translateY(0);
+    }
+    90% {
+        transform: translateY(1px);
+    }
+}
+
+/* Forked pen: https://codepen.io/uiswarup/pen/XWgQJrq */
+#profiles_show .profile-head .c-brief header h1 {
+  background-image: linear-gradient(
+    -225deg,
+    #b03e00 0%,
+    #ff7518 29%,
+    #d86c00 67%,
+    #cc5500 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: "Bookman Old Style", "Courier New", monospace;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  animation: u-nikcname-animbg 2s linear infinite;
+}
+
+@keyframes u-nikcname-animbg {
+  to {
+    background-position: 200% center;
+  }
+}
+
+#profiles_show .profile-head .c-brief header h1::after {
+  color: var(--color-nickname-background, #6b1717);
+  animation: u-nikcname-wavybg 2s ease-in-out infinite;
+}
+*/
+@keyframes u-nikcname-wavybg {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
+
+/* Устанавливаем шрифт */
+:root {
+  --font-main: 'Bona Nova SC', cursive;
+  --font-alt: var(--font-main);
+}
+.l-top_menu-v2 {
+  background: #f97233;
+  color: #ffe8d9;
+  font-family: "Bona Nova SC", "Bona Nova SC", monospace;
+}
+
+/* Цвета фона и границ подменю */
+.l-top_menu-v2 .submenu {
+  background: #ffc02d;
+  border-color: #ffd1b9;
+}
+
+/* Фоновый цвет кнопок верхнего меню */
+.l-top_menu-v2 .menu-dropdown>span {
+  background: #d53e07;
+}
+
+/* Фоновый цвет активных кнопок верхнего меню */
+.l-top_menu-v2 .menu-dropdown.active>span,
+.l-top_menu-v2 .menu-dropdown>span:focus {
+  background-color: #d53e07;
+}
+
+/* Фоновый цвет кнопок верхнего меню при наведении */
+.l-top_menu-v2 .menu-dropdown>span a:hover {
+  
+
+  background-color: #6C3123;
+}
+
+/* Фоновый цвет кнопок верхнего меню при нажатии */
+.l-top_menu-v2 .menu-dropdown>span a:active {
+  background-color: #ffe8d9;
+}
+
+.c-brief .profile-actions > a {
+  color: #d53e07;
+  font-family: "Bona Nova SC", "Courier New", monospace;
+}
+
+.p-profiles .profile-head .c-info .c-additionals b {
+  color: #d53e07;
+  font-family: "Bona Nova SC", "Courier New", monospace;
+}
+
+.p-profiles .profile-head .c-brief header .notice {
+  color: #d53e07;
+  font-family: "Bona Nova SC", "Courier New", monospace;
+}
+
+.b-stats_bar .stat_names .stat_name a {
+  color: #d53e07;
+  font-family: "Bona Nova SC", "Courier New", monospace;
+}
+
+.p-profiles .profile-head .c-brief header .notice a {
+  color: #d53e07;
+}
+
+/* Цвет иконки лупы в строке поиска */
+.l-top_menu-v2 .global-search .search-marker {
+  color: #d53e07;
+}
+
+.l-top_menu-v2.is-search-focus .global-search .search-marker {
+  color: #d53e07;
+  font-family: "Bona Nova SC", "Courier New", monospace;
+}
+
+.l-top_menu-v2 .global-search input {
+  border-radius: 50px;
+  background: #fffaf1;
+  color: #c1913d;
+  font-family: "Bona Nova SC", "Courier New", monospace;
+}
+
+.p-profiles-show .achievements .header .title {
+  color: #d53e07; /* Надписи «Общие», «Жанровые» и «Франшизы» */
+  font-family: "Bona Nova SC", "Courier New", monospace;
+}
+
+.p-profiles-show .lifetime .times .time {
+  color: #d53e07;
+  font-family: "Bona Nova SC", "Courier New", monospace;
+}
+
+.p-profiles-show .lifetime .times .time.checked {
+  color: #931010;
+  font-family: "Bona Nova SC", "Courier New", monospace;
+}
+
+/* Цвет галочек */
+.p-profiles-show .lifetime .times .time.checked::before {
+  color: #cc0000;
+}
+
+.p-profiles-show .profile-content .activity .title {
+  color: #cc0000;
+  font-family: "Bona Nova SC", "Courier New", monospace;
+}
+
+.b-stats_bar .title {
+  color: #cc0000; /* Для приватных списков */
+  font-family: "Bona Nova SC", "Courier New", monospace;
+}
+
+/* Названия списков: Запланировано, Отложено и т.д. */
+.b-stats_bar .stat_names .stat_name a {
+  color: #d53e07;
+  font-family: "Bona Nova SC", "Courier New", monospace;
+}
+
+.p-profiles .profile-head .c-history .entry .title {
+  color: #d53e07; /* Эта настройка излишняя, т.к. цвет наследуется от обычной ссылки */
+  font-family: "Bona Nova SC", "Courier New", monospace;
+}
+/* История: действие пунктов */
+.p-profiles .profile-head .c-history .entry .misc {
+  color: #d53e07 !important;
+  font-family: "Bona Nova SC", "Courier New", monospace;
+}
+/* История: дата пунктов */
+.p-profiles .profile-head .c-history .entry .misc.date {
+  color: #d53e07 !important;
+  font-family: "Bona Nova SC", "Courier New", monospace;
+}
+
+/* Цвет заголовков таблицы */
+.p-user_rates-index .l-content .order-control {
+  color: #d53e07;
+  font-family: "Bona Nova SC", "Courier New", monospace;
+}
+
+/* Номер */
+.p-user_rates-index .list-lines tr .index {
+  color: #d53e07;
+  font-family: "Bookman Old Style", "Courier New", monospace;
+}
+
+/* Название */
+.p-user_rates-index .list-lines tr .name a {
+  color: #6b1717;
+  font-family: "Bookman Old Style", "Courier New", monospace;
+}
+
+/* Комментарий */
+.p-user_rates-index .list-lines tr td .rate-text {
+  color: #6b1717;
+  font-family: "Bookman Old Style", "Courier New", monospace;
+}
+
+/* Онгоинг */
+.p-user_rates-index .list-lines tr td .ongoing {
+  color: #6b1717;
+  font-family: "Bookman Old Style", "Courier New", monospace;
+}
+
+/* Анонс */
+.p-user_rates-index .list-lines tr td .anons {
+  color: #6b1717;
+  font-family: "Bookman Old Style", "Courier New", monospace;
+}
+
+/* n повторных просмотров */
+.p-user_rates-index .list-lines tr td .rewatches {
+  color: #6b1717;
+  font-family: "Bookman Old Style", "Courier New", monospace;
+}
+
+/* Сводка таблицы */
+.p-user_rates-index .list-groups .summary.lines {
+  color: #6b1717;
+  font-family: "Bookman Old Style", "Courier New", monospace;
+}
+
+}
+/* Триггеры подменю (активное подменю) */
+.l-top_menu-v2 .menu-dropdown.active>span,
+/* Ссылка на профиль при наведении */
+.l-top_menu-v2 .menu-dropdown>span a:hover {
+  background-color: #d53e07;
+}
+/* Прозрачность обложки */
+.p-profiles .profile-head .c-brief::before {
+  opacity: 0.5;
+}
+
+h1 {
+font-family: "Bona Nova SC", "Courier New";
+}
+
+.l-top_menu-v2 .submenu > a:hover,
+.l-top_menu-v2 .menu-dropdown > button:not(.mobile):hover,
+.l-top_menu-v2 .menu-dropdown > button:not(.mobile) a:hover {
+  box-shadow: 0 0 30px rgba(235,214,163,6),
+              0 0 30px rgba(235,214,163,1) inset;
+  transition: 0.3s;
+}
+/* Устанавливаем шрифт */
+:root {
+  --font-main: 'Bona Nova SC', cursive;
+  --font-alt: var(--font-main);
+}
+.l-top_menu-v2 .logo-container .logo {
+  display: none;
+}
+.l-top_menu-v2 .logo-container::after {
+  content: '式守';
+  color: #ffd1b9; /* Цвет */
+  font-family: "Bona Nova SC";
+  font-size: 16px; /* Размер */
+  font-weight: bold; /* Полужирное начертание */
+}
+
+.fav_content.c-column>strong {
+  position:absolute;
+  top:8px;
+  left:-6px;
+  padding:6px 8px;
+  background:var(--color-primary,#6b1717);
+  border-color:var(--color-primary,#4F1717);
+  border-radius:2px 4px 4px 0;
+  box-shadow:0 1px 2px 0 rgba(79,23,23,.7);
+  color:var(--color-text-on-primary,#4F1717);
+  font-size:12px;
+  line-height:10px;
+  pointer-events:none;
+}
+
+[data-hint="Комедия 2 уровня"] img { 
+content: url("https://media1.tenor.com/m/MGwUzGm8yxsAAAAC/aho-girl.gif"); 
+}
+[data-hint="Короткометражки 4 уровня"] img { 
+content: url("https://i.pinimg.com/originals/f3/ac/31/f3ac31dd2989c7fd78af44edf3278054.gif"); 
+}
+[data-hint="Повседневность 1 уровня"] img { 
+content: url("https://steamuserimages-a.akamaihd.net/ugc/928174091349570669/0D140D20D7E9200D379F026386C554BD59CB8D6A/"); 
+}
+
+[data-hint="Спорт 1 уровня"] img { 
+content: url("https://pibig.info/uploads/posts/2021-05/1620692968_1-pibig_info-p-anime-futbol-vse-serii-anime-krasivo-1.jpg"); 
+}
+
+[data-hint="Фантастика 1 уровня"] img { 
+content: url("https://media.tenor.com/YF36RVMrjLAAAAAC/cosmos-space.gif"); 
+}
+[data-hint="Спорт 2 уровня"] img { 
+content: url("https://uookn-kursk.ru/wp-content/uploads/1/0/f/10f86c3d7fc6e4b57a8d143f49360fec.png"); 
+}
+[data-hint="Комедия 3 уровня"] img {
+content: url("https://i.pinimg.com/originals/62/ea/8c/62ea8c38b07063cac2c47be11e03c361.gif")
+}
+[data-hint="Комедия 4 уровня"] img {
+content: url("https://risibank.fr/cache/medias/0/6/690/69027/full.gif")
+}
