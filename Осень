@@ -3,6 +3,9 @@
 } /* Добавьте эту строку в конец кода. Это конец @media-запроса.  */
 /* Ваш CSS, который работает на любых экранах */
 
+/* Отображение истории в мобильной версии */
+@import url("https://gist.githubusercontent.com/grin3671/d994b47c010aabfd06cba7b9b1edcf03/raw/mobileHistory.css");
+
 @media (min-width: 1024px) {
 /* Ваш CSS, который работает только на больших экранах */
 }
@@ -24,39 +27,49 @@ html[data-color-mode="light"] {
     border-radius: 25px;
 }
 
-/* поле ввода */
-.b-shiki_editor .body .editor textarea {
-  background-color: #E98725;
-  color: #FAD6B2;
-}
-
-/* поле спойлера */
-.b-spoiler_block > div {
-  background-color: #FFEDDB;
-}
-
-/* всплывающее окно */
-.tooltip-inner {
-  background-color: #E98725;
-  color: #FAD6B2;
-}
-
-/* Списки Аниме и Манги в профиле */
-/* Названия разделов: Список аниме и Список манги */
-.b-stats_bar .title {
-  color: #A96228; /* Для приватных списков */
-}
-.b-stats_bar a.title {
-  color: #A96228; /* Для открытых списков */
-}
-
 /* Цвет цифр в полосках */
 .b-stats_bar .bar .first,
 .b-stats_bar .bar .second,
 .b-stats_bar .bar .third {
   color: #A96228;
 }
+.b-stats_bar .stat_names .stat_name a {
+  color: #A96228;
+}
+.b-stats_bar.anime .bar .first {
+background: #F18D3B;
+border-radius: 2px;
+}
 
+.b-stats_bar.manga .bar .first {
+background: #F18D3B;
+border-radius: 2px;
+}
+
+.b-stats_bar .bar .first {
+color: #FFC18F;
+}
+.b-stats_bar .bar .second {
+color: #864F37;
+}
+.b-stats_bar .bar .third {
+color: #FF918A;
+}
+.b-stats_bar.anime .bar .second {
+background: #FFB375; 
+}
+
+.b-stats_bar.manga .bar .second {
+background: #FFB375;
+}
+
+.b-stats_bar.anime .bar .third {
+background: #DC3C32; 
+}
+
+.b-stats_bar.manga .bar .third {
+background: #DC3C32; 
+}
 /* AUTO=page_background_color */ .l-page { background-color: rgba(251, 238, 223, 0.8); } .b-ajax:before { background: rgba(255, 239, 209, 0.8); }
 /* AUTO=sticky_menu */ @media screen and (min-width: 1000px) { .l-top_menu-v2 { position: sticky; top: 0; } .l-top_menu-v2 .active .submenu { max-height: calc(100vh - var(--top-menu-height)); overflow-y: auto; font-family: "Bookman Old Style", "Bookman Old Style", monospace;} }
 /* AUTO=page_border */ .l-page { outline: 25px solid rgba(255, 253, 214, 0.1); margin-bottom: 20px; font-family: "Bookman Old Style", "Courier New", monospace;}
@@ -72,26 +85,7 @@ html[data-color-mode="light"] {
   animation-duration: 1.9s;
   animation-name: activity;
 }
-/* Время фона */
-body[data-server_time *= "T20"],
-body[data-server_time *= "T21"],
-body[data-server_time *= "T22"],
-body[data-server_time *= "T23"],
-body[data-server_time *= "T00"],
-body[data-server_time *= "T01"],
-body[data-server_time *= "T02"],
-body[data-server_time *= "T03"],
-body[data-server_time *= "T04"],
-body[data-server_time *= "T05"],
-body[data-server_time *= "T06"],
-body[data-server_time *= "T07"]{
-  background-color: rgba(251, 238, 223, 0.8); .b-ajax:before  background: rgba(255, 239, 209, 0.8); 
-  @media screen and (min-width: 1030px)  .l-top_menu-v2  position: sticky; top: 0;  .l-top_menu-v2 .active .submenu  max-height: calc(100vh - var(--top-menu-height)); overflow-y: auto; 
-  .l-page  outline: 30px solid rgba(255, 255, 255, 0.3); margin-bottom: 20px; 
-  font-family: "Bookman Old Style", "Bookman Old Style", monospace;
-  background: url(https://i.pinimg.com/originals/5e/e2/ee/5ee2ee57feed8a17a7a5c1672f24cb2f.png) no-repeat fixed; background-size: 100% auto;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto;)
-}
-/* Фон ночной осени */
+
 .activity .graph.vertical .line .bar:hover {
   animation-name: none;
   transform: none;
@@ -518,12 +512,38 @@ font-family: "Bona Nova SC", "Courier New";
 .l-top_menu-v2 .logo-container .logo {
   display: none;
 }
+
 .l-top_menu-v2 .logo-container::after {
   content: '式守';
   color: #ffd1b9; /* Цвет */
   font-family: "Bona Nova SC";
   font-size: 16px; /* Размер */
   font-weight: bold; /* Полужирное начертание */
+}
+
+.p-profiles .about.block .b-spoiler label {
+  border: none;
+  display: inline-block !important;
+  font-weight: bold; /* толщина шрифта, можно убрать, если не нужно */
+  color: #ff7518; /* цвет текста спойлера */
+  background: #fdf5e6; /* цвет фона спойлера */
+  height: 30px; 
+  width: 100%;
+  font-size: 12pt; /* размер шрифта текста на спойлере */
+  padding-top: 3px; 
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.p-profiles .about.block .b-spoiler .after:before, .about.block .b-spoiler .before:before {
+  content: "";
+}
+
+.p-profiles .about.block .b-spoiler .before {
+  width: 100%; 
+  height: 50px;
+  display: inline-block !important;
+  margin-top: -50px;
 }
 
 .fav_content.c-column>strong {
@@ -541,29 +561,73 @@ font-family: "Bona Nova SC", "Courier New";
   pointer-events:none;
 }
 
-[data-hint="Комедия 2 уровня"] img { 
-content: url("https://media1.tenor.com/m/MGwUzGm8yxsAAAAC/aho-girl.gif"); 
-}
-[data-hint="Короткометражки 4 уровня"] img { 
-content: url("https://i.pinimg.com/originals/f3/ac/31/f3ac31dd2989c7fd78af44edf3278054.gif"); 
-}
-[data-hint="Повседневность 1 уровня"] img { 
-content: url("https://steamuserimages-a.akamaihd.net/ugc/928174091349570669/0D140D20D7E9200D379F026386C554BD59CB8D6A/"); 
+/* Стрелка вниз */
+.b-add_to_list .trigger-arrow {
+  color: #D17200;
 }
 
-[data-hint="Спорт 1 уровня"] img { 
-content: url("https://pibig.info/uploads/posts/2021-05/1620692968_1-pibig_info-p-anime-futbol-vse-serii-anime-krasivo-1.jpg"); 
+/* Надпись «Удалить из списка» */
+.b-add_to_list .expanded-options .remove-trigger .text {
+  color: #ff4136;
 }
 
-[data-hint="Фантастика 1 уровня"] img { 
-content: url("https://media.tenor.com/YF36RVMrjLAAAAAC/cosmos-space.gif"); 
+/* Запланировано */
+.b-add_to_list.planned .trigger,
+.b-add_to_list.planned .option {
+  background: #ffc02d;
+  border-color: #F0A800;
+  color: var(--link-color)
 }
-[data-hint="Спорт 2 уровня"] img { 
-content: url("https://uookn-kursk.ru/wp-content/uploads/1/0/f/10f86c3d7fc6e4b57a8d143f49360fec.png"); 
+
+/* Отложено */
+.b-add_to_list.on_hold .trigger,
+.b-add_to_list.on_hold .option {
+  background: #ffc02d;
+  border-color: #F0A800;
+  color: var(--link-color)
 }
-[data-hint="Комедия 3 уровня"] img {
-content: url("https://i.pinimg.com/originals/62/ea/8c/62ea8c38b07063cac2c47be11e03c361.gif")
+/* Смотрю */
+.b-add_to_list.watching .trigger,
+.b-add_to_list.watching .option {
+  background: #ffc02d;
+  border-color: #F0A800;
+  color: var(--link-color)
 }
-[data-hint="Комедия 4 уровня"] img {
-content: url("https://risibank.fr/cache/medias/0/6/690/69027/full.gif")
+
+/* Пересматриваю */
+.b-add_to_list.rewatching .trigger,
+.b-add_to_list.rewatching .option {
+  background: #ffc02d;
+  border-color: #F0A800;
+  color: var(--link-color)
 }
+
+/* Просмотрено */
+.b-add_to_list.completed .trigger,
+.b-add_to_list.completed .option {
+  background: #FFB952;
+  border-color: #EB8B00;
+  color: var(--link-color)
+}
+
+/* Брошено */
+.b-add_to_list.dropped .trigger,
+.b-add_to_list.dropped .option {
+  background: #E7241D;
+  border-color: #B30E00;
+  color: var(--link-color)
+}
+
+/* Звёзды рейтинга (фоновые) */
+.b-rate .stars.background {
+  color: #BCB167;
+}
+/* Звёзды рейтинга (активные) */
+.b-rate .stars.score {
+  color: #FFB314;
+}
+/* Звёзды рейтинга (при наведении) */
+.b-rate .stars.hover {
+  color: #ff9231;
+}
+
