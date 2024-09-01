@@ -117,7 +117,7 @@ background: #DC3C32;
   content: '';
   display: block;
   height: 520px; /**/ 
-  background: url("https://media.discordapp.net/attachments/661235129661784115/1279351669162901525/D0A0D0B5D0BCD0BED0BDD182.png?ex=66d42097&is=66d2cf17&hm=048826fb20a3860f25393ac2b22d657f1c9b7647adc9c8efb3cf5b8b8406e573&=&format=webp&quality=lossless&width=1048&height=590") no-repeat; /**/
+  background: url("https://sun9-42.userapi.com/impf/c845221/v845221335/16d25d/bqamgY8jXX0.jpg?size=1332x850&quality=96&sign=5c4718dccf4182d8a7ab6717cff23a6b&c_uniq_tag=hSIWMVJTisZWb9I1uUphFdwb9j5HFEgjhK2e7xpfTBA&type=album") no-repeat; /**/
   background-size: cover; 
   margin: -10px;
   margin-bottom: 5px; /**/
