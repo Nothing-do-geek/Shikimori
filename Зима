@@ -118,7 +118,7 @@ background: #0E1967;
   display: block;
   right: -350px;
   height: 920px; /**/ 
-  background: url("https://avatars.mds.yandex.net/i?id=7517b3b62498f79b15b57652f6492e81_l-9164755-images-thumbs&ref=rim&n=13&w=1900&h=1343") no-repeat; /**/
+  background: url("https://avatars.mds.yandex.net/i?id=6d562191511806f998b37b64b1c810c4-5244715-images-thumbs&n=13") no-repeat; /**/
   background-size: cover; 
   margin: -10px;
   margin-bottom: 0px; /**/
