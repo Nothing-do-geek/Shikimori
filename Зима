@@ -116,9 +116,9 @@ background: #0E1967;
 .p-profiles-show .profile-head:before {
   content: '';
   display: block;
-  right: -350px;
-  height: 920px; /**/ 
-  background: url("https://avatars.mds.yandex.net/i?id=6d562191511806f998b37b64b1c810c4-5244715-images-thumbs&n=13") no-repeat; /**/
+  right: 270px;
+  height: 580px; /**/ 
+  background: url("https://i.pinimg.com/originals/0f/ce/70/0fce70830098ab22deace99ba7fc4dce.jpg") no-repeat; /**/
   background-size: cover; 
   margin: -10px;
   margin-bottom: 0px; /**/
@@ -634,4 +634,3 @@ font-family: "Bona Nova SC", "Courier New";
 .b-rate .stars.hover {
   color: #FFF231;
 }
-
