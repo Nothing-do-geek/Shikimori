@@ -73,7 +73,7 @@ background: #0E1967;
 /* AUTO=page_background_color */ .l-page { background-color: rgba(255, 255, 255, 0.8); } .b-ajax:before { background: rgba(246, 253, 254, 0.8); }
 /* AUTO=sticky_menu */ @media screen and (min-width: 1000px) { .l-top_menu-v2 { position: sticky; top: 0; } .l-top_menu-v2 .active .submenu { max-height: calc(100vh - var(--top-menu-height)); overflow-y: auto; font-family: "Bookman Old Style", "Bookman Old Style", monospace;} }
 /* AUTO=page_border */ .l-page { outline: 25px solid rgba(246, 253, 254, 0.1); margin-bottom: 20px; font-family: "Bookman Old Style", "Courier New", monospace;}
-/* AUTO=body_background */ body { background: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701379714.jpg) no-repeat fixed; background-size: 100% auto;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto}
+/* AUTO=body_background */ body { background: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701379714.jpg") no-repeat fixed; background-size: 100% auto;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto}
 /* Фон зимы */
 .activity .graph.vertical .line .bar {
   box-sizing: content-box;
