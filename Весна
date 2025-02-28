@@ -73,8 +73,8 @@ background: #0E1967;
 /* AUTO=page_background_color */ .l-page { background-color: rgba(255, 255, 255, 0.8); } .b-ajax:before { background: rgba(246, 253, 254, 0.8); }
 /* AUTO=sticky_menu */ @media screen and (min-width: 1000px) { .l-top_menu-v2 { position: sticky; top: 0; } .l-top_menu-v2 .active .submenu { max-height: calc(100vh - var(--top-menu-height)); overflow-y: auto; font-family: "Bookman Old Style", "Bookman Old Style", monospace;} }
 /* AUTO=page_border */ .l-page { outline: 25px solid rgba(246, 253, 254, 0.1); margin-bottom: 20px; font-family: "Bookman Old Style", "Courier New", monospace;}
-/* AUTO=body_background */ body { background: url(https://avatars.mds.yandex.net/i?id=ec296ea6326bded4554b05e1b0cd77fc_l-5378240-images-thumbs&ref=rim&n=13&w=2160&h=1080) no-repeat fixed; background-size: 100% auto;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto}
-/* Фон зимы */
+/* AUTO=body_background */ body { background: url("https://sun9-53.userapi.com/s/v1/ig2/IgeB72UTh5FnLRQ7wGKAjhoLwOnbdaXuHjaiQLwHQzFZ64IuMaxcvpu2TiiDkfaYiRPN-F7BKryngWQ9p6zws0ce.jpg?quality=96&as=32x18,48x27,72x40,108x61,160x90,240x135,360x202,480x270,540x304,640x360,720x405,1080x607,1280x720,1440x810,1920x1080&from=bu&u=oBnUBCLqMM5AYBnM5qvM_L77oibJRWLQeVIn3LP4T4o&cs=807x454") no-repeat fixed; background-size: 100% auto;-webkit-background-size: 100% auto;-moz-background-size: 100% auto;-o-background-size: 100% auto}
+/* Фон весны */
 .activity .graph.vertical .line .bar {
   box-sizing: content-box;
   transform: translateY(1px);
@@ -118,7 +118,7 @@ background: #0E1967;
   display: block;
   right: 270px;
   height: 580px; /**/ 
-  background: url("https://avatars.mds.yandex.net/i?id=152522cda4d59b8c2ab61214df6ddc30-5674505-images-thumbs&n=13") no-repeat; /**/
+  background: url("https://sun9-6.userapi.com/impg/aXbTEabP-2jsFhf5dhTVJcuu3TocWnfFbpY-2g/tww_B2LI6_g.jpg?size=807x504&quality=96&sign=e924591fe719924a77e07dfbb1d04d25&c_uniq_tag=4a_SUNx8F3-Fm9YTh_A651ANAyT7HgZ1w_vtRCz3doc&type=album") no-repeat; /**/
   background-size: cover; 
   margin: -10px;
   margin-bottom: 0px; /**/
@@ -142,13 +142,13 @@ background: #0E1967;
     border-radius: 70% / 30%;
 }
 
-.bar.simple .bar.s3 { background: #84BDE6;border-radius: 25px}
+.bar.simple .bar.s3 { background: #E684D0;border-radius: 25px}
 .bar.simple .bar:hover.s3 { background:#328CCD;border-radius: 25px}
-.bar.simple .bar.s2 { background: #84A3E6;border-radius: 25px}
+.bar.simple .bar.s2 { background: #E684CC;border-radius: 25px}
 .bar.simple .bar:hover.s2 { background: #859AC7;border-radius: 25px}
-.bar.simple .bar.s1 { background: #7C88DA;border-radius: 25px}
+.bar.simple .bar.s1 { background: #DA7CBD;border-radius: 25px}
 .bar.simple .bar:hover.s1 { background: #3773B3;border-radius: 25px}
-.bar.simple .bar.s0 { background: #0E3B58;border-radius: 25px}
+.bar.simple .bar.s0 { background: #C01F6B;border-radius: 25px}
 .bar.simple .bar:hover.s0 { background: #1F345C;border-radius: 25px}
 @keyframes fly {
     0% {
@@ -193,9 +193,9 @@ body:before {
   width: 100%;
   height: 100%;
   /* Изображения снега: */
-  background-image: url(https://www.pngmart.com/files/22/Petal-PNG-Isolated-Transparent-Image.png),
-                    url(https://abrakadabra.fun/uploads/posts/2022-03/1647645758_19-abrakadabra-fun-p-padayushchie-lepestki-sakuri-30.png),
-                    url(https://avatanplus.com/files/resources/original/5b17753aac107163d3a1ed51.png);
+  background-image: url("https://www.pngmart.com/files/22/Petal-PNG-Isolated-Transparent-Image.png"),
+                    url("https://abrakadabra.fun/uploads/posts/2022-03/1647645758_19-abrakadabra-fun-p-padayushchie-lepestki-sakuri-30.png"),
+                    url("https://avatanplus.com/files/resources/original/5b17753aac107163d3a1ed51.png");
   /* Размер изображений по порядку: */
   /* (размер уменьшен в 2 раза: снежинки больше похожи на точки, чем на  детские рисунки */
   /* (можно удалить) */
@@ -244,13 +244,13 @@ body:before {
 #profiles_show .profile-head .c-brief header h1 {
   background-image: linear-gradient(
     -225deg,
-    #C2D4FF 0%,
-    #C7E6FF 29%,
+    #EA9999 0%,
+    #F4CCCC 29%,
+    #D73743 67%,
+    #BE1925 100%,
     #4D82FF 67%,
-    #477EFF 100%,
-    #4D82FF 67%,
     #C7E6FF 29%,
-    #C2D4FF 0%
+    #FE5864 0%
   );
   background-size: auto auto;
   background-clip: border-box;
@@ -311,165 +311,165 @@ body:before {
   --font-alt: var(--font-main);
 }
 .l-top_menu-v2 {
-  background: #95ACEF;
+  background: #EF95B1;
   color: #E5EAFB;
   font-family: "Bona Nova SC", "Bona Nova SC", monospace;
 }
 
 /* Цвета фона и границ подменю */
 .l-top_menu-v2 .submenu {
-  background: #8BA2E5;
-  border-color: #567AE1;
+  background: #E58BAF;
+  border-color: #DD3167;
 }
 
 /* Фоновый цвет кнопок верхнего меню */
 .l-top_menu-v2 .menu-dropdown>span {
-  background: #8BA2E5;
+  background: #E58BAD;
 }
 
 /* Фоновый цвет активных кнопок верхнего меню */
 .l-top_menu-v2 .menu-dropdown.active>span,
 .l-top_menu-v2 .menu-dropdown>span:focus {
-  background-color: #9BBFEE;
+  background-color: #EE9BDF;
 }
 
 /* Фоновый цвет кнопок верхнего меню при наведении */
 .l-top_menu-v2 .menu-dropdown>span a:hover {
   
 
-  background-color: #9BBFEE;
+  background-color: #EE9BDF;
 }
 
 /* Фоновый цвет кнопок верхнего меню при нажатии */
 .l-top_menu-v2 .menu-dropdown>span a:active {
-  background-color: #D9EAFF;
+  background-color: #FCDEF0;
 }
 
 .c-brief .profile-actions > a {
-  color: #0741D5;
+  color: #D50771;
   font-family: "Bona Nova SC", "Courier New", monospace;
 }
 
 .p-profiles .profile-head .c-info .c-additionals b {
-  color: #0741D5;
+  color: #D50771;
   font-family: "Bona Nova SC", "Courier New", monospace;
 }
 
 .p-profiles .profile-head .c-brief header .notice {
-  color: #0741D5;
+  color: #D50771;
   font-family: "Bona Nova SC", "Courier New", monospace;
 }
 
 .b-stats_bar .stat_names .stat_name a {
-  color: #0741D5;
+  color: #D50771;
   font-family: "Bona Nova SC", "Courier New", monospace;
 }
 
 .p-profiles .profile-head .c-brief header .notice a {
-  color: #0741D5;
+  color: #D50771;
 }
 
 /* Цвет иконки лупы в строке поиска */
 .l-top_menu-v2 .global-search .search-marker {
-  color: #0741D5;
+  color: #990000;
 }
 
 .l-top_menu-v2.is-search-focus .global-search .search-marker {
-  color: #0741D5;
+  color: #FFA1EA;
   font-family: "Bona Nova SC", "Courier New", monospace;
 }
 
 .l-top_menu-v2 .global-search input {
   border-radius: 50px;
-  background: #F1FBFF;
-  color: #443DC1;
+  background: #FFF1FD;
+  color: #C13D93;
   font-family: "Bona Nova SC", "Courier New", monospace;
 }
 
 .p-profiles-show .achievements .header .title {
-  color: #0741D5; /* Надписи «Общие», «Жанровые» и «Франшизы» */
+  color: #D50771; /* Надписи «Общие», «Жанровые» и «Франшизы» */
   font-family: "Bona Nova SC", "Courier New", monospace;
 }
 
 .p-profiles-show .lifetime .times .time {
-  color: #0741D5;
+  color: #D50771;
   font-family: "Bona Nova SC", "Courier New", monospace;
 }
 
 .p-profiles-show .lifetime .times .time.checked {
-  color: #111093;
+  color: #931042;
   font-family: "Bona Nova SC", "Courier New", monospace;
 }
 
 /* Цвет галочек */
 .p-profiles-show .lifetime .times .time.checked::before {
-  color: #111546;
+  color: #FD2645;
 }
 
 .p-profiles-show .profile-content .activity .title {
-  color: #111546;
+  color: #46111F;
   font-family: "Bona Nova SC", "Courier New", monospace;
 }
 
 .b-stats_bar .title {
-  color: #111546; /* Для приватных списков */
+  color: #46111C; /* Для приватных списков */
   font-family: "Bona Nova SC", "Courier New", monospace;
 }
 
 /* Названия списков: Запланировано, Отложено и т.д. */
 .b-stats_bar .stat_names .stat_name a {
-  color: #0758D5;
+  color: #D50710;
   font-family: "Bona Nova SC", "Courier New", monospace;
 }
 
 .p-profiles .profile-head .c-history .entry .title {
-  color: #0758D5; /* Эта настройка излишняя, т.к. цвет наследуется от обычной ссылки */
+  color: #D50709; /* Эта настройка излишняя, т.к. цвет наследуется от обычной ссылки */
   font-family: "Bona Nova SC", "Courier New", monospace;
 }
 /* История: действие пунктов */
 .p-profiles .profile-head .c-history .entry .misc {
-  color: #0758D5 !important;
+  color: #D5070E !important;
   font-family: "Bona Nova SC", "Courier New", monospace;
 }
 /* История: дата пунктов */
 .p-profiles .profile-head .c-history .entry .misc.date {
-  color: #0758D5 !important;
+  color: #D5070E !important;
   font-family: "Bona Nova SC", "Courier New", monospace;
 }
 
 /* Цвет заголовков таблицы */
 .p-user_rates-index .l-content .order-control {
-  color: #0741D5;
+  color: #D5070E;
   font-family: "Bona Nova SC", "Courier New", monospace;
 }
 
 /* Номер */
 .p-user_rates-index .list-lines tr .index {
-  color: #0741D5;
+  color: #D5070E;
   font-family: "Bookman Old Style", "Courier New", monospace;
 }
 
 /* Название */
 .p-user_rates-index .list-lines tr .name a {
-  color: #173D6B;
+  color: #6B1717;
   font-family: "Bookman Old Style", "Courier New", monospace;
 }
 
 /* Комментарий */
 .p-user_rates-index .list-lines tr td .rate-text {
-  color: #173D6B;
+  color: #6B1717;
   font-family: "Bookman Old Style", "Courier New", monospace;
 }
 
 /* Онгоинг */
 .p-user_rates-index .list-lines tr td .ongoing {
-  color: #173D6B;
+  color: #6B1717;
   font-family: "Bookman Old Style", "Courier New", monospace;
 }
 
 /* Анонс */
 .p-user_rates-index .list-lines tr td .anons {
-  color: #173D6B;
+  color: #6B1717;
   font-family: "Bookman Old Style", "Courier New", monospace;
 }
 
@@ -481,7 +481,7 @@ body:before {
 
 /* Сводка таблицы */
 .p-user_rates-index .list-groups .summary.lines {
-  color: #173D6B;
+  color: #6B1717;
   font-family: "Bookman Old Style", "Courier New", monospace;
 }
 
@@ -490,7 +490,7 @@ body:before {
 .l-top_menu-v2 .menu-dropdown.active>span,
 /* Ссылка на профиль при наведении */
 .l-top_menu-v2 .menu-dropdown>span a:hover {
-  background-color: #173D6B;
+  background-color: #6B1717;
 }
 /* Прозрачность обложки */
 .p-profiles .profile-head .c-brief::before {
@@ -519,7 +519,7 @@ font-family: "Bona Nova SC", "Courier New";
 
 .l-top_menu-v2 .logo-container::after {
   content: '式守';
-  color: #B9DDFF; /* Цвет */
+  color: #FECDD2; /* Цвет */
   font-family: "Bona Nova SC";
   font-size: 16px; /* Размер */
   font-weight: bold; /* Полужирное начертание */
@@ -555,11 +555,11 @@ font-family: "Bona Nova SC", "Courier New";
   top:8px;
   left:-6px;
   padding:6px 8px;
-  background:var(--color-primary,#3456B2);
-  border-color:var(--color-primary,#3456B2);
+  background:var(--color-primary,#B2343F);
+  border-color:var(--color-primary,#DA4E6F);
   border-radius:2px 4px 4px 0;
   box-shadow:0 1px 2px 0 rgba(79,23,23,.7);
-  color:var(--color-text-on-primary,#3456B2);
+  color:var(--color-text-on-primary,#B2345D);
   font-size:12px;
   line-height:10px;
   pointer-events:none;
@@ -572,45 +572,45 @@ font-family: "Bona Nova SC", "Courier New";
 
 /* Надпись «Удалить из списка» */
 .b-add_to_list .expanded-options .remove-trigger .text {
-  color: #802DBE;
+  color: #510609;
 }
 
 /* Запланировано */
 .b-add_to_list.planned .trigger,
 .b-add_to_list.planned .option {
-  background: #C1CAE2;
-  border-color: #778BC0;
+  background: #ED9CC0;
+  border-color: #CE2C74;
   color: var(--link-color)
 }
 
 /* Отложено */
 .b-add_to_list.on_hold .trigger,
 .b-add_to_list.on_hold .option {
-  background: #C1CAE2;
-  border-color: #778BC0;
+  background: #955B75;
+  border-color: #B08296;
   color: var(--link-color)
 }
 /* Смотрю */
 .b-add_to_list.watching .trigger,
 .b-add_to_list.watching .option {
-  background: #C1CAE2;
-  border-color: #778BC0;
+  background: #EFAECB;
+  border-color: #F7C4DB;
   color: var(--link-color)
 }
 
 /* Пересматриваю */
 .b-add_to_list.rewatching .trigger,
 .b-add_to_list.rewatching .option {
-  background: #C1CAE2;
-  border-color: #778BC0;
+  background: #EFAECB;
+  border-color: #F7C4DB;
   color: var(--link-color)
 }
 
 /* Просмотрено */
 .b-add_to_list.completed .trigger,
 .b-add_to_list.completed .option {
-  background: #C1CAE2;
-  border-color: #778BC0;
+  background: #EB3397;
+  border-color: #FFC2DD;
   color: var(--link-color)
 }
 
@@ -628,9 +628,9 @@ font-family: "Bona Nova SC", "Courier New";
 }
 /* Звёзды рейтинга (активные) */
 .b-rate .stars.score {
-  color: #FFCE47;
+  color: #FF4747;
 }
 /* Звёзды рейтинга (при наведении) */
 .b-rate .stars.hover {
-  color: #FFF231;
+  color: #CB2929;
 }
