@@ -634,3 +634,13 @@ font-family: "Bona Nova SC", "Courier New";
 .b-rate .stars.hover {
   color: #CB2929;
 }
+/* Изменение курсора */
+@import url("https://css-club.web.app/css/custom_cursor.css");
+
+/* Настройки */
+:root {
+  /* Курсор по умолчанию */
+  --cursor-default: url("https://images.pling.com/cache/85x85-2/img/00/00/76/85/99/2134382/thumb.png");
+  /* Курсор при наведении */
+  --cursor-pointer: url("https://images.pling.com/cache/85x85-2/img/00/00/66/69/61/1974873/thumb.png");
+}
